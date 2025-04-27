@@ -10,7 +10,7 @@ import java.util.Map;
 @Service
 public class SlackService {
 
-    private static final String WEBHOOK_URL = "https://hooks.slack.com/services/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"; // ← 이거 네 꺼로 교체
+    private static final String WEBHOOK_URL = "https://hooks.slack.com/services/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"; // ← 이거 네 꺼로 교체
 
     public void sendMessage(String text) {
         try {
